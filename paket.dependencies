@@ -1,11 +1,16 @@
+source C:\git\ExcelDna\Package\nupkg
+storage: none
+framework: net461
+nuget ExcelDna.Integration >= 1.2.5.3 preview
+nuget ExcelDna.Addin >= 1.2.5.3 preview
+
+
 source https://api.nuget.org/v3/index.json
 
 storage: none
 framework: net461
 
 nuget FSharp.Core
-nuget ExcelDna.Integration
-nuget ExcelDna.Addin
 nuget ExcelDna.IntelliSense
 nuget FSharpPlus
 nuget FsToolkit.ErrorHandling
